@@ -7,7 +7,8 @@ RxGreenDao: Reactive Extensions for GreenDao
 2.    RxGreenDao提供的方法以rx开头，例如：xxxDao.rxCount()，xxxDao.rxInsert()...          
 3.    提供xxxDao.rxQueryBuilder()       
 #Sample
-
+          Note note = new Note();
+          note.setText("hello world!");
           noteDao.rxInsert(note)
                 .doOnNext(new Action1<Long>() {
                     @Override
