@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         daoSession = daoMaster.newSession();
         noteDao = daoSession.getNoteDao();
 
-        final Note note = new Note();
+        Note note = new Note();
         note.setText("hello world!");
 
         noteDao.rxInsert(note)
