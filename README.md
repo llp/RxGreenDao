@@ -2,6 +2,10 @@
 RxGreenDao: Reactive Extensions for GreenDao
 
 使GreenDao支持Rxjava的补丁包  
+
+使用
+          compile 'io.github.llp:RxGreenDao:0.1'
+
 注意：    
 1.    使用DaoGenerator生成出来的XXXDao要把继承关系从AbstractDao修改为RxAbstractDao        
 2.    RxGreenDao提供的方法以rx开头，例如：xxxDao.rxCount()，xxxDao.rxInsert()...          
