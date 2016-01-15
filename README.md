@@ -3,7 +3,7 @@ RxGreenDao: Reactive Extensions for GreenDao
 
 使GreenDao支持Rxjava的补丁包  
 
-使用
+#Download
 
           compile 'io.github.llp:RxGreenDao:0.1'
 
