@@ -13,7 +13,9 @@ RxGreenDao: Reactive Extensions for GreenDao
 3.    提供xxxDao.rxQueryBuilder()      
 
 #TODO 
-扩展DaoGenerator，使其自动生成继承RxAbstractDao的xxxDao
+
+1.  扩展DaoGenerator，使其自动生成继承RxAbstractDao的xxxDao
+2.  添加测试类
 
 #Sample
           Note note = new Note();
